@@ -10,13 +10,13 @@ Run your own Stacks Blockchain node easily with just few commands.
 ## **Quick Start for Umbrel:**
 
 ```bash
-git clone --depth 1 https://github.com/Ceramicwhite/stacks-on-umbrel.git && cd stacks-blockchain-docker
-cp sample.env .env
-export BTC_RPC_PASS="<umbrel btc rpc password>"  # Visit Bitcoin App on Umbrel and click "+ Connect" for RPC Password 
-sed -i "
+$ git clone --depth 1 https://github.com/Ceramicwhite/stacks-on-umbrel.git && cd stacks-blockchain-docker
+$ cp sample.env .env
+$ export BTC_RPC_PASS="<umbrel btc rpc password>"  # Visit Bitcoin App on Umbrel and click "+ Connect" for RPC Password 
+$ sed -i "
     /^password/s/.*/password = \"${BTC_RPC_PASS}\"/; \
 " ./conf/mainnet/Config.toml.sample
-./manage.sh -n mainnet -a start
+$ ./manage.sh -n mainnet -a start
 ```
 
 ---
