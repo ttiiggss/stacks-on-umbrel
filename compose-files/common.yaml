@@ -14,7 +14,7 @@ services:
       - event-replay
       - stacks-blockchain
   stacks-blockchain:
-    image: blockstack/stacks-blockchain:${STACKS_BLOCKCHAIN_VERSION:-latest}
+    image: ceramicwhite/stacks-blockchain:v2.05.0.2.2@sha256:8420a2af59701875eddcd4d4d694d13268744fc819f9763170d14d652fa5a6ca
     container_name: stacks-blockchain
     restart: on-failure
     ports:
@@ -36,7 +36,7 @@ services:
         "/src/stacks-blockchain/Config.toml",
       ]
   stacks-blockchain-api:
-    image: hirosystems/stacks-blockchain-api:${STACKS_BLOCKCHAIN_API_VERSION:-latest}
+    image: ceramicwhite/stacks-blockchain-api:v4.1.0@sha256:dc2091682ff5ab6127c492da3c9eb9a1cc24b3cea3b2fc97f2807982b3c3f403
     container_name: stacks-blockchain-api
     restart: always
     ports:
