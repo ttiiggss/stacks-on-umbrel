@@ -36,7 +36,7 @@ services:
         "/src/stacks-blockchain/Config.toml",
       ]
   stacks-blockchain-api:
-    image: ceramicwhite/stacks-blockchain-api:v4.1.0@sha256:dc2091682ff5ab6127c492da3c9eb9a1cc24b3cea3b2fc97f2807982b3c3f403
+    image: ceramicwhite/stacks-blockchain-api:v4.1.0@sha256:d55b7a40119d0fc8b1411828ce18431c46e252ef4ad188e1657d1af90dfbb65b
     container_name: stacks-blockchain-api
     restart: always
     ports:
