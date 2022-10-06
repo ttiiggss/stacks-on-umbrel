@@ -14,7 +14,7 @@ services:
       - event-replay
       - stacks-blockchain
   stacks-blockchain:
-    image: ceramicwhite/stacks-blockchain:v2.05.0.3.0@sha256:953db9197b4615345f7e096d9e7b3a1b27a759a32a4be3190f6822064aa2dd18
+    image: ceramicwhite/stacks-blockchain:latest-bullseye-slim@sha256:52756b3d418ca7f510696cb69d0c96aa579b7b09654e274933cc3504beb06ef7
     container_name: stacks-blockchain
     restart: on-failure
     ports:
