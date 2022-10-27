@@ -1,4 +1,7 @@
-# Stacks Blockchain with Docker
+# Use the new Stacks Appstore Repo: https://github.com/ceramicwhite/stacks-apps-on-umbrel
+
+
+## Stacks Blockchain with Docker
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
